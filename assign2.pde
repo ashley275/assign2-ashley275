@@ -101,10 +101,8 @@ void draw() {
       }else{
         image( cabbage, cabbageX, cabbageY );
       }
-      println(groundhogY);
-      println("......"+groundhogX);
-
-
+	
+	
       //groundhog image : image width 80px
       ///1.move or not
       if( groundhogSpaceY < 4 ){
